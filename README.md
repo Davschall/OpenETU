@@ -1,6 +1,6 @@
 # Airsoft-ETrigger
-Just mucking about learning Arduino.
-If Anyone is unlucky enough to stumble across this, I am a first year engineering student who loves embedded electronics. Until I learn
+Just mucking about learning Arduino. Using this as a way to manage workflow between multiple computers.
+If Anyone is unfortunate enough to stumble across this, I am a first year engineering student who loves embedded electronics. Until I learn
 how to design circuits, I am using an arduino to have easy access to a microcontroller. 
 Eventually I want to turn this into a board, with an atmel attiny85 at its heart.
 I want to create an open source fairly easy to make, low cost, airsoft ETrigger unit. 
