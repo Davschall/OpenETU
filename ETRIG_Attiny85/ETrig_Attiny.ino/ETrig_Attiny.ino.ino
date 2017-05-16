@@ -24,13 +24,13 @@ void setup() {
 */
 bool trigFunc(bool trigPull, int cutoff)
 {
-
+ bool trigState = false;
   while (cutoff == 1 && trigPull == false)
   {
     
-
+    
     unsigned long currentMillis = millis();
-    bool trigState = false;
+   
 
     if (digitalRead(trigPin) == LOW && digitalRead(cutPin) == HIGH)
     {
@@ -40,24 +40,25 @@ bool trigFunc(bool trigPull, int cutoff)
     }
     else if (trigPull == true)
     {
-      return;
+      return trigState;
     }
     else if (digitalRead(cutPin) == LOW)
     {
       previousMillis = currentMillis;
       trigState = ! trigState;
       digitalWrite(motorPin, LOW);
-      return trigState;
+      break;
     }
     else if (currentMillis > 5000)
       {
          previousMillis = currentMillis;
       trigState = ! trigState;
       digitalWrite(motorPin, LOW);
-      return trigState;
+      
         
       }
   }
+  return trigState;
 }
 /*
    Function that will not allow the program back into the trigger pulling
