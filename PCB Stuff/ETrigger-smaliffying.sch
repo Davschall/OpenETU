@@ -114,7 +114,7 @@ F 3 "" H 5350 4200 50  0000 C CNN
 	1    5350 4200
 	1    0    0    -1  
 $EndComp
-Text GLabel 5350 2950 0    60   Input ~ 0
+Text GLabel 5200 2650 1    60   Input ~ 0
 OutTrig
 Text GLabel 5350 3250 0    60   Input ~ 0
 Cutoff
@@ -368,7 +368,7 @@ Wire Wire Line
 Wire Wire Line
 	4950 4200 5350 4200
 Wire Wire Line
-	5700 2950 5350 2950
+	5200 2950 5700 2950
 Wire Wire Line
 	5700 3250 5350 3250
 Wire Wire Line
@@ -431,8 +431,6 @@ Wire Wire Line
 	4550 2000 4550 1900
 Text GLabel 4550 1900 1    60   Input ~ 0
 VCC_ICSP
-Wire Wire Line
-	5700 1900 5700 2850
 Wire Wire Line
 	5700 2100 4400 2100
 Wire Wire Line
@@ -582,7 +580,7 @@ Wire Wire Line
 	2250 4500 3050 4500
 Text GLabel 3050 4500 2    60   Input ~ 0
 OutTrig2
-Text GLabel 5700 1900 1    60   Input ~ 0
+Text GLabel 5700 1600 1    60   Input ~ 0
 OutTrig2
 Connection ~ 5700 2100
 $Comp
@@ -774,4 +772,30 @@ Connection ~ 3650 4200
 Connection ~ 8700 2850
 Connection ~ 9450 1300
 Connection ~ 4800 5850
+$Comp
+L R R5
+U 1 1 591D6374
+P 5700 1800
+F 0 "R5" V 5780 1800 50  0000 C CNN
+F 1 "R" V 5700 1800 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 5630 1800 50  0001 C CNN
+F 3 "" H 5700 1800 50  0000 C CNN
+	1    5700 1800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5700 1650 5700 1600
+Wire Wire Line
+	5700 1950 5700 2850
+$Comp
+L R R4
+U 1 1 591D6E82
+P 5200 2800
+F 0 "R4" V 5280 2800 50  0000 C CNN
+F 1 "R" V 5200 2800 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 5130 2800 50  0001 C CNN
+F 3 "" H 5200 2800 50  0000 C CNN
+	1    5200 2800
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
