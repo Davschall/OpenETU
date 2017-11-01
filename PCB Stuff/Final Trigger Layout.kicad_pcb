@@ -6,9 +6,9 @@
     (area 115.50142 107.55295 176.702721 144.990821)
     (thickness 1.6)
     (drawings 177)
-    (tracks 169)
+    (tracks 171)
     (zones 0)
-    (modules 35)
+    (modules 39)
     (nets 15)
   )
 
@@ -154,6 +154,54 @@
     (uvia_drill 0.1)
     (add_net +5V)
     (add_net +BATT)
+  )
+
+  (module VIA (layer F.Cu) (tedit 59F95F64) (tstamp 59FDC272)
+    (at 144.907 116.3362)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.03175)))
+    )
+    (fp_text value VIA (at 0.127 -3.302) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.03175)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.35) (layers *.Cu)
+      (net 2 GND) (zone_connect 2))
+  )
+
+  (module VIA (layer F.Cu) (tedit 59F95F64) (tstamp 59FDC26E)
+    (at 144.907 114.8362)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.03175)))
+    )
+    (fp_text value VIA (at 0.127 -3.302) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.03175)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.35) (layers *.Cu)
+      (net 2 GND) (zone_connect 2))
+  )
+
+  (module VIA (layer F.Cu) (tedit 59F95F64) (tstamp 59FDC26A)
+    (at 144.907 113.3362)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.03175)))
+    )
+    (fp_text value VIA (at 0.127 -3.302) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.03175)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.35) (layers *.Cu)
+      (net 2 GND) (zone_connect 2))
+  )
+
+  (module VIA (layer F.Cu) (tedit 59F95F64) (tstamp 59FDC25F)
+    (at 144.907 111.8362)
+    (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 0.127 0.127) (thickness 0.03175)))
+    )
+    (fp_text value VIA (at 0.127 -3.302) (layer F.Fab) hide
+      (effects (font (size 0.127 0.127) (thickness 0.03175)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.35) (layers *.Cu)
+      (net 2 GND) (zone_connect 2))
   )
 
   (module VIA (layer F.Cu) (tedit 59F95DD9) (tstamp 59FDC241)
@@ -1367,6 +1415,11 @@
   (segment (start 146.355271 120.799251) (end 146.355271 119.13488) (width 0.75) (layer F.Cu) (net 1) (status 10))
   (segment (start 144.67332 121.31358) (end 145.95668 121.31358) (width 0.75) (layer F.Cu) (net 1) (status 10))
   (segment (start 149.24786 114.66576) (end 149.24786 117.91576) (width 0.75) (layer F.Cu) (net 1) (status 30))
+  (segment (start 145.332894 114.069381) (end 144.90863 114.069381) (width 0.75) (layer F.Cu) (net 2))
+  (segment (start 146.162281 114.069381) (end 145.332894 114.069381) (width 0.75) (layer F.Cu) (net 2))
+  (segment (start 146.2151 114.1222) (end 146.162281 114.069381) (width 0.75) (layer F.Cu) (net 2))
+  (via (at 144.90863 114.069381) (size 0.6) (drill 0.4) (layers F.Cu B.Cu) (net 2))
+  (segment (start 144.907 116.3362) (end 144.907 111.8362) (width 0.75) (layer F.Cu) (net 2))
   (segment (start 161.85642 131.30022) (end 161.85642 129.97434) (width 0.75) (layer F.Cu) (net 2))
   (segment (start 161.85642 129.97434) (end 161.89452 129.93624) (width 0.75) (layer F.Cu) (net 2))
   (via (at 161.89452 129.93624) (size 0.6) (drill 0.4) (layers F.Cu B.Cu) (net 2))
@@ -1391,9 +1444,6 @@
   (segment (start 156.62418 117.86696) (end 155.6512 116.89398) (width 0.75) (layer F.Cu) (net 2) (status 20))
   (segment (start 146.88312 117.78996) (end 146.88312 114.79022) (width 0.75) (layer F.Cu) (net 2) (status 30))
   (segment (start 146.88312 114.79022) (end 146.2151 114.1222) (width 0.75) (layer F.Cu) (net 2) (status 30))
-  (segment (start 146.2151 114.1222) (end 145.33626 114.1222) (width 0.75) (layer F.Cu) (net 2) (status 30))
-  (segment (start 145.33626 114.1222) (end 144.7292 113.51514) (width 0.75) (layer F.Cu) (net 2) (status 10))
-  (via (at 144.7292 113.51514) (size 0.6) (drill 0.4) (layers F.Cu B.Cu) (net 2))
   (segment (start 153.36774 118.32438) (end 151.6192 118.32438) (width 0.75) (layer F.Cu) (net 2) (status 10))
   (segment (start 151.6192 118.32438) (end 151.38654 118.55704) (width 0.75) (layer F.Cu) (net 2))
   (via (at 151.38654 118.55704) (size 0.6) (drill 0.4) (layers F.Cu B.Cu) (net 2))
