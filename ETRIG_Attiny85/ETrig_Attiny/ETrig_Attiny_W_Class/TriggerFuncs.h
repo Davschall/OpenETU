@@ -1,0 +1,6 @@
+class TriggerFuncs
+{
+  public:
+TriggerFuncs(
+}
+
