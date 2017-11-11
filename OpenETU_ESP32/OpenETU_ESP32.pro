@@ -1,4 +1,4 @@
-update=11/2/2017 1:13:06 AM
+update=11/10/2017 8:39:02 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -62,3 +62,4 @@ LibName30=atmel
 LibName31=contrib
 LibName32=valves
 LibName33=C:/Users/David/Documents/My Libraries/esp32-pico-d4
+LibName34=C:/Users/David/Documents/KiCad/ETrigger-smaliffying-cache
