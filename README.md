@@ -16,7 +16,7 @@ I will also be developing a Bluetooth version. It will be based on either the Es
 
 •	Choose between fire modes (full auto and burst plus…how many rounds of burst do you want?)
 
-•	Battery voltage level in app (Really not much more than that  say).
+•	Battery voltage level in app.
 
 •	Semi lock mode. DMR shooting to hot? I know I am. Create a bond of trust with the ref by letting him/her semi lock your gun for the day! Try to defeat it by pulling your battery and it just resets the internal timer so that it never overcomes the interval variable! (Don’t worry it will eventually unlock when you reconnect to the app and the timer is at zero) ...there’s probably some way to defeat it I’m sure… 
 
